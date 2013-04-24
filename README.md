@@ -1,22 +1,17 @@
-Waveform
+Waveform-Heroku
 ========
 
-Waveform is a class to generate waveform images from audio files. You can combine it with jPlayer to make a soundcloud.com style MP3 player. It also comes with a handy CLI you can use to generate waveform images on the command line.
+Waveform is a class to generate waveform images from audio files, right in the heroku cloud. You can combine it with jPlayer to make a soundcloud.com style MP3 player. It also comes with a handy CLI you can use to generate waveform images on the command line.
 
 Installation
 ============
 
-Waveform depends on `ruby-audio`, which in turn depends on libsndfile.
+Waveform depends on `ruby-audio-heroku` forked by klangfeld, which in turn depends on libsndfile.
 
-Build libsndfile from (http://www.mega-nerd.com/libsndfile/), install it via `apt` (`sudo apt-get install libsndfile1-dev`), `libsndfile` in macports, etc...
+Install in Rails3 gemfile:
 
-Then:
+    gem 'waveform-heroku'
 
-    $ sudo gem install waveform
-
-Image creation depends on `chunky_png`, which has a faster native library called `oily_png` which will be used if availble.
-
-    $ sudo gem install oily_png
 
 CLI Usage
 =========
