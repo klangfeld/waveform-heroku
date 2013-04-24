@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), "waveform/version")
 
-require "ruby-audio-heroku"
+require "ruby-audio"
 begin
   require "oily_png"
 rescue LoadError
