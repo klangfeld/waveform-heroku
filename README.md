@@ -6,7 +6,7 @@ Waveform is a class to generate waveform images from audio files, right in the h
 Installation
 ============
 
-Waveform depends on `ruby-audio-heroku` forked by klangfeld, which in turn depends on libsndfile.
+Waveform depends on `ruby-audio-heroku-gem` forked by me, which in turn depends on libsndfile.
 
 Install in Rails3 gemfile:
 
