@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), "waveform/version")
 
-require "ruby-audio"
+require "ruby-audio-heroku"
 begin
   require "oily_png"
 rescue LoadError
@@ -97,6 +97,12 @@ class Waveform
         end
         
         image = draw samples, options
+        @image = image
+
+        #@new_filename = File.basename(filename, File.extname(filename))+("png")
+        #@new_ext_filename = File.expand_path(File.basename(filename, File.extname(filename)))+("png")
+        #@filen = filename
+
         image.save filename
       end
       

@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
 
   s.executables = "waveform"
 
-  s.add_dependency "ruby-audio"
+  s.add_dependency "ruby-audio-heroku"
   s.add_dependency "chunky_png"
 end
