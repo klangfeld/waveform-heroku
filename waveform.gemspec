@@ -1,13 +1,13 @@
 require "./lib/waveform/version"
 
 Gem::Specification.new do |s|
-  s.name              = "waveform-heroku"
+  s.name              = "waveform"
   s.version           = Waveform::VERSION
   s.summary           = "Generate waveform images from audio files"
   s.description       = "Generate waveform images from audio files. Includes a Waveform class for generating waveforms in your code as well as a simple command-line program called 'waveform' for generating on the command line."
   s.authors           = ["Ben Alavi"]
   s.email             = ["benalavi@gmail.com"]
-  s.homepage          = "http://github.com/klangfeld/waveform-heroku"
+  s.homepage          = "http://github.com/klangfeld/waveform"
 
   s.files = Dir[
     "LICENSE",
