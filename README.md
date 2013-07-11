@@ -10,7 +10,7 @@ Waveform depends on `ruby-audio-heroku-gem` forked by me, which in turn depends 
 
 Install in Rails3 gemfile:
 
-    gem 'waveform-heroku', git: "git://github.com/klangfeld/waveform.git"
+    gem 'waveform', git: "git://github.com/klangfeld/waveform.git"
 
 
 CLI Usage
